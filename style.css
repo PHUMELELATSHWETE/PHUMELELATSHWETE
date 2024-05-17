@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Outfit;
+    font-size: 18px;
+    padding: 25px;
+    background-color: hsl(217, 54%, 11%);
+}
+
+.card-background {
+    display: block;
+    margin: auto;
+    margin-top: 100px;
+    width: 500px;
+    height: auto;
+    border-radius: 15px;
+    padding: 25px;
+    background-color: hsl(216, 50%, 16%);
+}
+
+.nft-image {
+    max-width: 100%;
+    border-radius: 7px;
+}
+
+ul {
+    list-style-type: none;
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid hsl(215, 32%, 27%);
+    padding-bottom: 25px;
+    color: hsl(215, 51%, 70%);
+}
+
+.card-background ul li:first-child {
+    color: hsl(178, 100%, 50%);
+}
+
+.card-background ul li {
+    display: flex;
+    align-items: center;
+}
+
+.card-background ul li img {
+    margin-right: 5px;
+}
+
+.heading {
+    color: hsl(0, 0%, 100%);
+    margin-top: 25px;
+    margin-bottom: 30px;
+    display: inline-block;
+}
+
+.paragraph {
+    margin-top: 25px;
+    font-weight: 300;
+    color: hsl(215, 51%, 70%);
+    text-align: center;
+}
+
+.avatar {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.avatar-image {
+    width: 40px;
+    height: 40px;
+    border: 2px solid hsl(0, 0%, 100%);
+    border-radius: 50%;
+}
+
+.name-avatar {
+    display: inline-block;
+    margin-left: 20px;
+    color: hsl(215, 51%, 70%);
+}
+
+.name-avatar span {
+    color: hsl(0, 0%, 100%);
+    font-weight: 400;
+}
+
+
